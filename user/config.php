@@ -22,7 +22,7 @@ define( 'YOURLS_DB_NAME', 'go_links' );
 
 /** MySQL hostname.
  ** If using a non standard port, specify it like 'hostname:port', e.g. 'localhost:9999' or '127.0.0.1:666' */
-define( 'YOURLS_DB_HOST', '34.67.10.33' );
+define( 'YOURLS_DB_HOST', '34.67.10.33:3306' );
 
 /** MySQL tables prefix
  ** YOURLS will create tables using this prefix (eg `yourls_url`, `yourls_options`, ...)
